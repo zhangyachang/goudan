@@ -1,0 +1,82 @@
+html{font-size:100px;}
+body{
+	min-width:320px;	/*为什么这里不用rem，因为这是body的宽度，如果用rem那就一直都是1，没有办法缩小 */
+	max-width:640px;
+	margin:auto;
+}
+/*搜索栏 开始*/
+.content{width:6rem; margin:auto; font-size:0.16rem;}
+.header{position:fixed; right:0; left:0; width:6.4rem; margin:auto; z-index:999; padding:0.05rem 0;}
+.header .left{width:5.3rem;}
+.header .left input{width:100%; height:0.3rem; outline:none; text-indent:0.62rem; border-radius:1rem; background:url("../images/header/jd.png")no-repeat 0.1rem center/auto 50%,#fff url("../images/header/search.png")no-repeat 0.4rem center/auto 50%;/*   background-color:#fff; */}  /*这里背景颜色的属性写到后面的地方*/
+.header .right{position:absolute; top:calc(50% - 0.1rem); right:0.2rem; color:#fff;}
+/*搜索栏 结束*/
+
+/* 轮播图 开始 */
+.swiper-container{width:6.4rem; margin:auto;}
+.swiper-container .swiper-wrapper .swiper-slide img{width:6.4rem;}
+/* 轮播图 结束 */
+
+/* nav 开始 */
+.nav .top-img img{width:6.4rem;}
+.nav .mainbav ul{display:flex; flex-wrap:wrap; justify-content:space-around;}
+.nav .mainbav ul li{width:20%; padding:0.20rem 0; text-align:center; font-size:0.16rem;}
+.nav .mainbav #swiper5 ul li img{width:0.58rem; height:0.58rem;}
+.nav .mainbav ul li h2{font:normal 0.16rem/0.3rem "";}
+.nav .bottom-img img{width:6.4rem;}
+/* nav 结束 */
+
+/* part1 开始 */
+.part1 .top{height:0.8rem; text-align:center; background:url("../images/part1/shoppinr_bg.png") no-repeat center top/6.4rem auto;}
+.part1 .top img{width:1.33rem;  vertical-align:top;}
+
+.part1 .bottom .shop .shop1{display:flex; flex-wrap:wrap; justify-content:space-around; }
+.part1 .bottom .shop .shop1 li{position:relative; width:3.1rem; height:1.4rem; margin-top:0.1rem; box-shadow:0 0 10px 0 #000; font-size:0.16rem;}
+.part1 .bottom .shop .shop1 li h3{margin-left:0.1rem; font:bold 0.22rem/0.6rem "";}
+.part1 .bottom .shop .shop1 li p{margin-left:0.1rem; font-size:0.18rem; color:#999;}
+.part1 .bottom .shop .shop1 li img{position:absolute; top:0.17rem; right:0.12rem; width:1rem;}
+
+.part1 .bottom .shop .shop2{display:flex; padding:0.2rem 0; flex-wrap:wrap; justify-content:space-around;}
+.part1 .bottom .shop .shop2 li{width:20%; box-shadow:0 0 10px 0 #000; text-align:center;}
+.part1 .bottom .shop .shop2 h3{font:bold 0.22rem/0.4rem "";}
+.part1 .bottom .shop .shop2 p{font:0.2rem/0.4rem ""; color:#999;}
+.part1 .bottom .shop .shop2 img{width:1rem;}
+/* part1 结束 */
+
+/*part2 开始*/
+#part2 .swiper-pagination span{margin:0 10px;}
+.swiper2 img{width:6.4rem;}
+.swiper-container{font-size:0.16rem;}
+.part2 .part2-title{height:0.6rem; padding:0.1rem 0; background:url("../images/part1/shoppinr_bg.png") no-repeat center top/6.4rem auto; text-align:center;}
+.part2 .part2-title img{width:1.85rem;  vertical-align:top;}
+.part2 .shop1 ul{display:flex; flex-wrap:wrap; justify-content:space-around; font-size:0.14rem;}
+.part2 .shop1 li{position:relative; width:2.76rem; margin-top:0.1rem;}
+.part2 .shop1 img{width:2.76rem; height:2.76rem;}
+.part2 .shop1 h4{font:normal 0.14rem/0.24rem ""; }
+.part2 .shop1 span{font-weight:bold; line-height:0.4rem; color:red;}
+.part2 .shop1 p{font-size:0.14rem; color:#999;}
+.part2 .shop1 li .search-pro{position:absolute; bottom:0rem; right:0rem; width:1rem; height:0.25rem; border:1px solid #ccc; font:0.14rem/0.25rem ""; color:#999; text-align:center; }
+/*part2 结束*/
+
+/* footer开始 */
+.footer{ margin-top:0.2rem; padding-bottom:0.7rem; font-size:0.14rem; text-align:center;}
+.footer .footer-load{border-top:1px solid #bbb; line-height:0.34rem; color:#999;}
+.footer .footer-nav{border-top:1px solid #999;}
+.footer .footer-nav ul{padding:0.12rem 0;}
+.footer .footer-nav li{display:inline-block; padding:0 0.2rem; border-right:1px solid #999;}
+.footer .footer-nav li:last-child{border-right:none;}
+.footer .footer-img{ border-top:1px solid #999;}
+
+.footer .footer-img ul{display:flex; justify-content:space-around; width:3rem; margin:0.2rem auto;}
+.footer .footer-img ul li{ position: relative; width: 0.45rem;  height: 0.7rem;}
+.footer .footer-img ul li:nth-child(1){background:url("../images/footer/jd-sprites.png")no-repeat -1.13rem -0.7rem/2rem 2rem;}
+.footer .footer-img ul li:nth-child(2){background:url("../images/footer/jd-sprites.png")no-repeat -0.35rem -0.7rem/2rem 2rem;}
+.footer .footer-img ul li:nth-child(3){background:url("../images/footer/jd-sprites.png")no-repeat -0.73rem -0.7rem/2rem 2rem;}
+.footer .footer-img ul li a{ position: absolute; bottom:0.1rem; left:-0.18rem;width:200%;  font-size:0.14rem;}
+
+.footer .copyright{border-top:1px solid #999; line-height:0.3rem;}
+
+.footer .footer-fixed ul{position:fixed; right:0; left:0; bottom:0; width:6.4rem; margin:auto; display:flex; justify-content:space-around; background:#fff; cursor:pointer;}
+.footer .footer-fixed ul li img{width:0.7rem;}
+/* footer结束 */
+
