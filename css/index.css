@@ -1,9 +1,23 @@
-html{font-size:100px;}
+html{font-size:100px;
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+-webkit-user-select: none;
+-moz-user-focus: none;
+-moz-user-select: none;
+
+
+}
 body{
 	min-width:320px;	/*为什么这里不用rem，因为这是body的宽度，如果用rem那就一直都是1，没有办法缩小 */
 	max-width:640px;
 	margin:auto;
 }
+
+
+
+
+
+
+
 /*搜索栏 开始*/
 .content{width:6rem; margin:auto; font-size:0.16rem;}
 .header{position:fixed; right:0; left:0; width:6.4rem; margin:auto; z-index:999; padding:0.05rem 0;}
