@@ -59,7 +59,6 @@ var mySwiper = new Swiper ('#swiper5', {
 
 
 
-
 /*swiper2 开始*/
 var mySwiper = new Swiper ('#swiper2', {
     autoplay: 1000,
