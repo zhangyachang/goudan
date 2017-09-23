@@ -39,6 +39,7 @@ body{
 
 .part1 .bottom .shop .shop2{display:flex; padding:0.2rem 0; flex-wrap:wrap; justify-content:space-around;}
 .part1 .bottom .shop .shop2 li{width:20%; box-shadow:0 0 10px 0 #000; text-align:center;}
+.part1 .bottom .shop .shop2 li a{display:block;}
 .part1 .bottom .shop .shop2 h3{font:bold 0.22rem/0.4rem "";}
 .part1 .bottom .shop .shop2 p{font:0.2rem/0.4rem ""; color:#999;}
 .part1 .bottom .shop .shop2 img{width:1rem;}
