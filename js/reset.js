@@ -1,4 +1,3 @@
-/*
 var doc = document,
     win = window,
     oBody = doc.documentElement || doc.body,
@@ -10,14 +9,5 @@ function rem() {
     oBody.style.fontSize = 100 * (doc.body.clientWidth / 640) + "px";
     console.log(oBody.style.fontSize);
 }
-*/
 
-var html = document.querySelector('html');
-	 rem();
-	window.addEventListener('resize',function () {
-		rem();
-	})
-	function rem() {
-		var width = html.getBoundingClientRect().width;
-		html.style.fontSize = 100*width/640+ 'px';
-	}
+
