@@ -19,5 +19,5 @@ var html = document.querySelector('html');
 	})
 	function rem() {
 		var width = html.getBoundingClientRect().width;
-		html.style.fontSize = width/100+ 'px';
+		html.style.fontSize = 100*width/640+ 'px';
 	}
